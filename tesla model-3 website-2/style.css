@@ -1,0 +1,291 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* box-sizing: border-box;
+    overflow: hidden; */
+}
+
+#header{
+    height: 600px;
+    background: url('./imgs/tesla2.png') no-repeat center center/cover;
+}
+
+.navbar{
+    display: block;
+    padding-right: 10px;
+    font-family:'Merriweather', serif;
+}
+
+.navbar .ul2{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    justify-content: space-between;
+    position: fixed;
+    font-family:'Merriweather', serif ;
+}
+
+.navbar .ul2 a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: #f4f4f4;
+}
+.navbar .ul1{
+   position: absolute;
+   right: 400px;
+   top: 20px;
+   position: fixed;
+}
+
+.navbar .ul1 a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: #f4f4f4;
+}
+.navbar .logo{
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  color: #f4f4f4;
+  position: fixed;
+}
+
+.con1{
+    position: absolute;
+    left: 550px;
+    top: 60px;
+}
+.con1 h1{
+    color:#fff;
+    font-size: 50px;
+}
+.dem{
+    position: absolute;
+    right: 500px;
+    top:130px;
+    color:#f4f4f4;
+    margin-right: 15px;
+}
+.dem a{
+    color: #f4f4f4;
+}
+
+.btn-lst{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    position: fixed;
+}
+
+.btn-lst .btns{
+    color: #f4f4f4;
+}
+
+.btn-lst .btns li{
+    list-style: none;
+}
+
+.btn-lst .btns button{
+    background: #333;
+    color: #f4f4f4;
+    height: 50px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.hed-info{
+    position: absolute;
+    top: 500px;
+    left: 320px;
+    color: #f4f4f4;
+}
+.mph{
+    position: absolute;
+    top: 550px;
+    left: 305px;
+    color: #f4f4f4;
+}
+.mi{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    color: #f4f4f4;
+}
+.ran{
+    position: absolute;
+    top: 550px;
+    left: 480px;
+    color: #f4f4f4;
+}
+.mi2{
+    position: absolute;
+    top: 500px;
+    right: 430px;
+    color: #f4f4f4;
+}
+.ran2{
+    position: absolute;
+    top: 550px;
+    right: 410px;
+    color: #f4f4f4;
+}
+.buy-btn{
+    position: absolute;
+    right: 200px;
+    top: 520px;
+    width: 170px;
+    height: 35px;
+    background:none ;
+    border:2px solid #fff;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.buy-btn:hover{
+    background: #f4f4f4;
+    color: #333;
+}
+.safety{
+    position: relative;
+    height: 450px;
+    background: #fff;
+}
+.safety .img{
+    float: left;
+    width: 55%;
+    height: 90%;
+    margin-right: 100px;
+}
+.safety .saf{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.safety .bult{
+    margin-top:20px;
+}
+.safety p{
+    margin-bottom:20px;
+}
+.buy-btn2{
+    position: absolute;
+    top:400px;
+    right:20px;
+    width: 190px;
+    height: 35px;
+    background:none ;
+    border:2px solid #333;
+    color: #000;
+    cursor: pointer;
+}
+.buy-btn2:hover{
+    background: #333;
+    color:#f4f4f4;
+}
+
+.plus{
+    position: absolute;
+    top: 400px;
+    right: 350px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.plus:hover{
+    background: #333;
+    color:#fff;
+}
+.lern{
+    position: absolute;
+    top: 410px;
+    right: 270px;
+    text-decoration: none;
+    color: #000;
+}
+.asc{
+    position: relative;
+    height: 500px;
+    background: url('./imgs/asc.jpeg') no-repeat center center/cover;
+    margin-top: 5px;
+}
+.container{
+    position: absolute;
+    top: 400px;
+}
+.container .box{
+  
+    float: left;
+    width: 23.3%;
+    padding: 5px 60px;
+    text-align: center;
+}
+.container .box h3{
+    font-size: 25px;
+}
+.container .box h3, .container .box p{
+    color: #f4f4f4;
+}
+.asc-info{
+    position: relative;
+    height: 200px;
+}
+.per{
+    float: left;
+    width: 40%;
+    margin-left:90px;
+    margin-right: 0; 
+    margin-top: 60px;
+}
+.info-p{
+    float: right;
+    width: 40%;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+.per-hed{
+    margin-bottom: 10px;
+}
+.per-hed1{
+    margin-bottom: 10px;
+}
+.buy-btn3{
+    position: absolute;
+    top:170px;
+    left:240px;
+    width: 190px;
+    height: 35px;
+    background:none ;
+    border:2px solid #333;
+    color: #000;
+    cursor: pointer;
+}
+.buy-btn3:hover{
+    background: #333;
+    color:#f4f4f4;
+}
+
+.plus2{
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.plus2:hover{
+    background: #333;
+    color:#fff;
+}
+.lern2{
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    text-decoration: none;
+    color: #000;
+}
