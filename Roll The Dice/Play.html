@@ -1,0 +1,40 @@
+<!DOCTYPE Html>
+<Html Lang="En">
+<Head>
+<Meta Charset="UTF-8" />
+<Meta Name="Viewport" Content="Width=Device-Width, Initial-Scale=1.0" />
+<Meta Http-Equiv="X-UA-Compatible" Content="Ie=Edge" />
+<Link Rel="Stylesheet" Href="Style.Css" />
+<Title>Roll Dice Game</Title>
+</Head>
+<Body>
+<Main>
+<Section Class="Player Player-1 Active-Player">
+<H2 Class="Name" Id="Name--0">Player 1</H2>
+<P Class="Score" Id="Score--0">0</P>
+<div Class="Current">
+<P Class="Current-Label">Current</P>
+<P Class="Current-Score" Id="Current--0">0</P>
+<p id="Player1Wins">Player 1 Wins: 0</p>
+
+
+</div>
+</Section>
+<Section Class="Player Player-2">
+<H2 Class="Name" Id="Name--1">Player 2</H2>
+<P Class="Score" Id="Score--1">0</P>
+<div Class="Current">
+<P Class="Current-Label">Current</P>
+<P Class="Current-Score" Id="Current--1">0</P>
+<p id="Player2Wins">Player 2 Wins: 0</p>
+</div>
+</Section>
+<Img Src="dice-5.Png" Alt="Playing Dice" Class="Dice" />
+<Img Src="dice-5.Png" Alt="Playing Dice" Class="Dice2" />
+<Button  Class="Btn New-Btn"> New Game</Button>
+<Button id="btn" Class="Btn Roll-Btn"> Roll Dice</Button>
+<Button id="btn" Class="Btn Hold-Btn"> Hold</Button>
+</Main>
+<Script Src="app.js"></Script>
+</Body>
+</Html>

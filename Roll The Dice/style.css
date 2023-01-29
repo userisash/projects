@@ -1,0 +1,152 @@
+@Import Url('Https://Fonts.Googleapis.Com/Css2?Family=Nunito&Display=Swap');
+* {
+Margin: 0;
+Padding: 0;
+Box-Sizing: Inherit;
+}
+Html {
+Font-Size: 62.5%;
+Box-Sizing: Border-Box;
+}
+Body {
+Font-Family: 'Nunito', Sans-Serif;
+Font-Weight: 400;
+Height: 100vh;
+Color: #333;
+Background-Image: Linear-Gradient(To Top Left, #753682 0%, #Bf2e34 100%);
+Display: Flex;
+Align-Items: Center;
+Justify-Content: Center;
+}
+/* LAYOUT */
+Main {
+Position: Relative;
+Width: 100rem;
+Height: 60rem;
+Background-Color: Rgba(255, 255, 255, 0.35);
+Backdrop-Filter: Blur(200px);
+Filter: Blur();
+Box-Shadow: 0 3rem 5rem Rgba(0, 0, 0, 0.25);
+Border-Radius: 9px;
+Overflow: Hidden;
+Display: Flex;
+}
+.Player {
+Flex: 50%;
+Padding: 9rem;
+Display: Flex;
+Flex-Direction: Column;
+Align-Items: Center;
+Transition: All 0.75s;
+}
+/* ELEMENTS */
+.Name {
+Position: Relative;
+Font-Size: 4rem;
+Text-Transform: Uppercase;
+Letter-Spacing: 1px;
+Word-Spacing: 2px;
+Font-Weight: 300;
+Margin-Bottom: 1rem;
+}
+.Score {
+Font-Size: 8rem;
+Font-Weight: 300;
+Color: #C7365f;
+Margin-Bottom: Auto;
+}
+.Active-Player {
+Background-Color: Rgba(255, 255, 255, 0.4);
+}
+.Active-Player .Name {
+Font-Weight: 700;
+}
+.Active-Player .Score {
+Font-Weight: 400;
+}
+.Active-Player .Current {
+Opacity: 1;
+}
+.Current {
+Background-Color: #C7365f;
+Opacity: 0.8;
+Border-Radius: 9px;
+Color: #Fff;
+Width: 65%;
+Padding: 2rem;
+Text-Align: Center;
+Transition: All 0.75s;
+}
+.Current-Label {
+Text-Transform: Uppercase;
+Margin-Bottom: 1rem;
+Font-Size: 1.7rem;
+Color: #Ddd;
+}
+.Current-Score {
+Font-Size: 3.5rem;
+}
+/* ABSOLUTE POSITIONED ELEMENTS */
+.Btn {
+Position: Absolute;
+Left: 50%;
+Transform: TranslateX(-50%);
+Color: #444;
+Background: None;
+Border: None;
+Font-Family: Inherit;
+Font-Size: 1.8rem;
+Text-Transform: Uppercase;
+Cursor: Pointer;
+Font-Weight: 400;
+Transition: All 0.2s;
+Background-Color: White;
+Background-Color: Rgba(255, 255, 255, 0.6);
+Backdrop-Filter: Blur(10px);
+Padding: 0.7rem 2.5rem;
+Border-Radius: 50rem;
+Box-Shadow: 0 1.75rem 3.5rem Rgba(0, 0, 0, 0.1);
+}
+
+.New-Btn {
+Top: 4rem;
+}
+.Roll-Btn {
+Top: 39.3rem;
+}
+.Hold-Btn {
+Top: 46.1rem;
+}
+.Btn:active {
+Transform: Translate(-50%, 3px);
+Box-Shadow: 0 1rem 2rem Rgba(0, 0, 0, 0.15);
+}
+.Btn:focus {
+Outline: None;
+}
+.Dice {
+Position: Absolute;
+Left: 50%;
+Top: 16.5rem;
+Transform: TranslateX(-50%);
+Height: 5rem;
+Box-Shadow: 0 2rem 5rem Rgba(0, 0, 0, 0.2);
+}
+.Dice2 {
+    Position: Absolute;
+    Left: 50%;
+    Top: 25.5rem;
+    Transform: TranslateX(-50%);
+    Height: 5rem;
+    Box-Shadow: 0 2rem 5rem Rgba(0, 0, 0, 0.2);
+    }
+.Player--Winner {
+Background-Color: #2f2f2f;
+}
+.Player--Winner .Name {
+Font-Weight: 700;
+Color: #C7365f;
+}
+.Hidden {
+Display: None;
+}
